@@ -1,0 +1,16 @@
+#!/bin/sh
+
+MARK6_CMD="/home/quintus/bin/mark6 6 10000"
+
+( 
+cat <<EOF
+set terminal png truecolor size 480,320
+set output 'histogram.png'
+set data style histogram
+set xtics 5 
+set xrange [0:50]
+set yrange [0:]
+plot '-' using 2:1 title 'Occurrence' w boxes fs solid 0.5
+EOF
+$MARK6_CMD | tr ' ' \\n | sort -n | uniq -c 
+) | gnuplot 
