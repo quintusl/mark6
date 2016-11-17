@@ -13,4 +13,4 @@ where
 
 ## Notes
 * Mark Six (六合彩) is a lottery betting organised by the Hong Kong Jockey Club.
-* This author(s) of this software are not affiliaTed with the Hong Kong Jockey Club (HKJC) and HKJC Lotteries Limited.
+* The author(s) of this software are not affiliated with the Hong Kong Jockey Club (HKJC) and HKJC Lotteries Limited.
